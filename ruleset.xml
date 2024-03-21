@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="My Ruleset">
+    <description>Custom ruleset for PMD static code analysis</description>
+    <!-- Enable specific rules -->
+    <rule ref="category/java/bestpractices.xml/UnusedImports"/>
+    <rule ref="category/java/codestyle.xml/UnnecessaryParentheses"/>
+    <!-- Disable specific rules -->
+    <!-- <rule ref="category/java/errorprone.xml/EmptyCatchBlock" /> -->
+</ruleset>
